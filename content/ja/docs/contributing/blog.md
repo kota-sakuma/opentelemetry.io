@@ -2,7 +2,7 @@
 title: ブログ
 description: ブログ投稿する方法を学びます。
 weight: 30
-default_lang_commit: 68e94a4555606e74c27182b79789d46faf84ec25 # patched
+default_lang_commit: 2cf937f0a41361eb850f28370f417367b8e82a13
 drifted_from_default: true
 ---
 
@@ -75,20 +75,20 @@ SIG Communication のメンテナーがブログ記事が受け入れられる�
 1. リポジトリルートから以下のコマンドを実行してください
 
    ```sh
-   npx hugo new content/en/blog/2024/short-name-for-post.md
+   npx hugo new content/en/blog/$(date +%Y)/short-name-for-post.md
    ```
 
    投稿に画像やその他のアセットが含まれている場合、次のコマンドを実行してください。
 
    ```sh
-   npx hugo new content/en/blog/2024/short-name-for-post/index.md
+   npx hugo new content/en/blog/$(date +%Y)/short-name-for-post/index.md
    ```
 
-1. 前のコマンドで提供したパスのマークダウンファイルを編集してください。このファイルは、[archetypes](https://github.com/open-telemetry/opentelemetry.io/tree/main/archetypes/)配下のブログ記事スターターから初期化されます。
+2. 前のコマンドで提供したパスのマークダウンファイルを編集してください。このファイルは、[archetypes](https://github.com/open-telemetry/opentelemetry.io/tree/main/archetypes/)配下のブログ記事スターターから初期化されます。
 
-1. 作成したフォルダの中に、画像や他のファイルのアセットを配置してください
+3. 作成したフォルダの中に、画像や他のファイルのアセットを配置してください
 
-1. 記事の準備ができたら、プルリクエストを通して提出してください
+4. 記事の準備ができたら、プルリクエストを通して提出してください
 
 ### GitHub UI を使用する {#use-the-github-ui}
 
@@ -101,7 +101,7 @@ UI を利用して記事を追加するのに次のステップに従ってく�
 
 1. 最初のステップでコピーしたテンプレートを貼り付けます
 
-1. ファイルに名前をつけてください。たとえば、`content/en/blog/2022/short-name-for-your-blog-post/index.md` です
+1. ファイルに名前をつけてください。たとえば、`content/en/blog/YYYY/short-name-for-your-blog-post/index.md` (YYYY は現在の年) です
 
 1. GitHub で Markdown を編集してください
 
