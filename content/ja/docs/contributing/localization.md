@@ -44,9 +44,9 @@ OTel のウェブサイトは、ページのローカリゼーションをサポ
 
 - **翻訳**
   - [アラートタイプ](../style-guide/#alerts) (`TIP`、`WARNING` など)
-  - コード (コードブロックやインライン コードを含む。たとえば、`inline code example` など)
+  - ソースコード (コードブロックやインライン コードを含む。たとえば、`inline code example` など)
   - このレポジトリ内のリソースの **ファイルやディレクトリ** の名前
-  - [すべきこと](#do) で指示されていない [フロントマター][front matter]のフィールド。特に `aliases` は翻訳しないこと。不明な場合はメンテナーに質問すること。
+  - [すべきこと](#do) で指示されていない [フロントマター][front matter]のフィールド。特に `aliases` は翻訳しないこと。よくわからない場合はメンテナーに質問すること。
   - [見出しID](#headings) を含む [リンク](#links) [^*]
   - `notranslate`（CSSクラスとして）でマークされたMarkdown の要素、特に[見出し](#headings)に対して
 - [画像内のテキストを翻訳する](#images) 場合以外で **画像ファイルのコピー** をすること。
@@ -219,7 +219,7 @@ npm run check:i18n -- -n
 
 対応する英語のページに変更に合わせてローカリゼーションページを更新する際、`default_lang_commit` のコミットハッシュも忘れずに確認してください。
 
-> [!TIP] ヒント
+> [!TIP]
 >
 > ローカリゼーション ページが `main` の `HEAD` にある英語版と対応するようになった場合、フロントマター内のコミット ハッシュの値を消去し、前のセクションであった **add** コマンドを実行して、`default_lang_commit` フィールドの値を自動的に更新してください。
 
@@ -230,7 +230,7 @@ npm run check:i18n -- -c <hash> <PATH-TO-YOUR-NEW-FILES>
 npm run check:i18n -- -c HEAD <PATH-TO-YOUR-NEW-FILES>
 ```
 
-> [!IMPORTANT] 重要
+> [!IMPORTANT]
 >
 > `HEAD` をハッシュ指定子として使用すると、スクリプトは**ローカル環境**における `main` の HEAD のハッシュを使用します。
 > `main` を GitHub 上の HEAD に対応したい場合、必ず `main` のフェッチとプルをしてください。
