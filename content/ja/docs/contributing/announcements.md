@@ -23,7 +23,9 @@ hugo new --kind announcement content/YOUR-LOCALE/announcements/announcement-file
 アナウンスの本文をページの内容として追加します。
 
 > バナーの場合、アナウンスの本文は短いフレーズにしてください。
->
+
+<!-- markdownlint-disable no-blanks-blockquote -->
+
 > [!NOTE] ローカリゼーションについて
 >
 > **ローカル固有のアナウンスを上書きする場合** は、英語版のアナウンスと **同じファイル名** を使用してください。
