@@ -712,6 +712,7 @@ maintainers:
       - go-instrumentation-approvers
       - go-instrumentation-triagers
       - injector-approvers
+      - injector-maintainers
     html_url: https://github.com/grcevski
     avatar_url: https://avatars.githubusercontent.com/u/6207777?v=4
   - name: gshriver
@@ -745,6 +746,7 @@ maintainers:
       - configuration-approvers
       - configuration-maintainers
       - injector-approvers
+      - injector-maintainers
       - java-approvers
       - java-contrib-approvers
       - java-contrib-maintainers
@@ -1859,11 +1861,6 @@ approvers:
       - dotnet-triagers
     html_url: https://github.com/CodeBlanch
     avatar_url: https://avatars.githubusercontent.com/u/28367120?v=4
-  - name: codefromthecrypt
-    teams:
-      - opentelemetry-python-contrib-approvers
-    html_url: https://github.com/codefromthecrypt
-    avatar_url: https://avatars.githubusercontent.com/u/64215?v=4
   - name: crobert-1
     teams:
       - collector-contrib-approvers
@@ -2085,7 +2082,6 @@ approvers:
     avatar_url: https://avatars.githubusercontent.com/u/8219709?v=4
   - name: karthikscale3
     teams:
-      - opentelemetry-python-contrib-approvers
       - semconv-genai-approvers
     html_url: https://github.com/karthikscale3
     avatar_url: https://avatars.githubusercontent.com/u/105607645?v=4
@@ -2195,7 +2191,6 @@ approvers:
     avatar_url: https://avatars.githubusercontent.com/u/30917104?v=4
   - name: nirga
     teams:
-      - opentelemetry-python-contrib-approvers
       - semconv-genai-approvers
     html_url: https://github.com/nirga
     avatar_url: https://avatars.githubusercontent.com/u/4224692?v=4
