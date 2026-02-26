@@ -3,7 +3,7 @@ title: サイトのローカリゼーション
 description: 非英語ローカリゼーションのサイトページの作成と管理
 linkTitle: ローカリゼーション
 weight: 25
-default_lang_commit: 162b6afb3495b2f02f8afd9a16c76dbc2c5c8dfd
+default_lang_commit: 95bda8d21cad14972ff819441e52d161d67e3eac
 drifted_from_default: true
 cSpell:ignore: Dowair shortcodes
 ---
