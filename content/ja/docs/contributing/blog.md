@@ -2,7 +2,7 @@
 title: ブログ
 description: ブログ投稿する方法を学びます。
 weight: 30
-default_lang_commit: 2cf937f0a41361eb850f28370f417367b8e82a13
+default_lang_commit: 31a5feff8b12871eae341d5f668e83b7b31ec22a
 drifted_from_default: true
 ---
 
@@ -26,6 +26,16 @@ OpenTelemetry ウェブサイトのメンテナーと承認者はプロジェク
 
 ブログ記事は商業的な内容であってはならず、OpenTelemetry コミュニティに全体に適用される独自の内容で作成する必要があります。
 ブログ記事は [Social Media Guide](https://github.com/open-telemetry/community/blob/main/social-media-guide.md) に記載されている方針に従ってください。
+
+### GitHub リポジトリへのリンク
+
+不安定な GitHub `blob`/`tree` リンクを防止するために、Markdownlint (`gh-url-hash`) でブログ記事をチェックします。
+
+チェックにより問題が報告された場合、次のように修正してください。
+
+- デフォルト ブランチのリファレンス（例：`main`/`master`）をタグ/リリース ID またはコミット ハッシュに置き換える
+- 完全な 40 文字のコミット ハッシュを使用する（短いハッシュはフラグされる）
+- `npm run fix:markdown` を実行して、修正できるものを自動的に修正し、残りのリンクを手動で修正する
 
 投稿しようとしている内容が、OpenTelemetry コミュニティ全体に適用されることを確認してください。
 適切な内容には、以下が含まれます。
